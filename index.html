@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        th,td { border: 1px solid black}
+        tfoot {background-color: yellow}
+    </style>
+</head>
+<body>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Black Friday</th>
+                <th>Valor Unitario</th>
+                <th>Valor Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mouse</td>
+                <td>10</td>
+                <td rowspan="2">Sim</td>
+                <td>R$ 13,00</td>
+                <td>R$130,00</td>
+            </tr>
+            <tr>
+                <td>Teclado</td>
+                <td>5</td>
+                <td>R$ 20,00</td>
+                <td>R$100,00</td>
+            </tr>
+            <tr>
+                <td>Monitor</td>
+                <td>10</td>
+                <td>Não</td>
+                <td>R$ 300,00</td>
+                <td>R$3000,00</td>
+            </tr>
+            <tr>
+                <td>Impressora</td>
+                <td>3</td>
+                <td>sim</td>
+                <td>R$ 500,00</td>
+                <td>R$1500,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total</td>
+                <td>R$4730,00</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
